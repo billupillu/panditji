@@ -26,13 +26,13 @@ $(document).ready(function(){
 	$('.j').hide();
 	$('.z').hide();
 	$('.feedback-button').click(function(){
-		$('.i').fadeToggle("slow",null,function(){
-			$('.h').fadeToggle("slow",null, function(){
-				$('.b').fadeToggle("slow",null, function(){
-					$('.c').fadeToggle("slow",null,function(){
-						$('.k').fadeToggle("slow",null,function(){
-							$('.z').fadeToggle("slow",null,function(){
-								$('.j').fadeToggle("slow",null,function(){});
+		$('.i').fadeToggle("fast",null,function(){
+			$('.h').fadeToggle("fast",null, function(){
+				$('.b').fadeToggle("fast",null, function(){
+					$('.c').fadeToggle("fast",null,function(){
+						$('.k').fadeToggle("fast",null,function(){
+							$('.z').fadeToggle("fast",null,function(){
+								$('.j').fadeToggle("fast",null,function(){});
 							});
 						});
 					});
